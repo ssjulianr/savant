@@ -1,6 +1,6 @@
 [
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/worldtourhoodief.png",
 		"type" : "<i class='fa-solid fa-shirt'></i>",
 		"alt" : "savant world tour hoodie",
@@ -10,7 +10,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/worldtourtee.webp",
 		"type" : "<i class='fa-solid fa-shirt'></i>",
 		"alt" : "savant world tour t-shirt",
@@ -20,7 +20,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/logotee.webp",
 		"type" : "<i class='fa-solid fa-shirt'></i>",
 		"alt" : "savant logo t-shirt",
@@ -30,7 +30,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/darkchild.webp",
 		"type" : "<i class='fa-solid fa-compact-disc'></i>",
 		"alt" : "DARKCHILD VINYL RECORD",
@@ -40,7 +40,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/reign.webp",
 		"type" : "<i class='fa-solid fa-compact-disc'></i>",
 		"alt" : "REIGN VINYL RECORD",
@@ -50,7 +50,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "SAINT X PRAY FOR PARIS",
+		"brand": "SAINT X PRAY FOR PARIS",
 		"image": "/images/sproducts/prayforparis.webp",
 		"type" : "<i class='fa-solid fa-shirt'></i>",
 		"alt" : "pray for paris tee",
@@ -60,7 +60,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/poster.webp",
 		"type" : "<i class='fa-solid fa-gift'></i>",
 		"alt" : "tour poster",
@@ -70,7 +70,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/hat.webp",
 		"type" : "<i class='fa-solid fa-gift'></i>",
 		"alt" : "logo hat",
@@ -80,7 +80,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/holywater.webp",
 		"type" : "<i class='fa-solid fa-compact-disc'></i>",
 		"alt" : "HOLY WATER VINYL RECORD",
@@ -90,7 +90,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/course.webp",
 		"type" : "<i class='fa-solid fa-headphones-simple'></i>",
 		"alt" : "artist dev course",
@@ -100,7 +100,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.'",
+		"brand": "'savant.'",
 		"image": "/images/sproducts/mix.webp",
 		"type" : "<i class='fa-solid fa-headphones-simple'></i>",
 		"alt" : "track mix",
@@ -110,7 +110,7 @@
 		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'savant.",
+		"brand": "'savant.",
 		"image": "/images/sproducts/mix.webp",
 		"type" : "<i class='fa-solid fa-headphones-simple'></i>",
 		"alt" : "track mix and master",

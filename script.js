@@ -1,36 +1,33 @@
-// xmlhttp-request creates a new object that interacts with the servers.
+// Create a new XMLHttpRequest object
 let http = new XMLHttpRequest();
-// the variable http holds now all methods and properties of the objct.
 
-//  next i prepare the request with the open() method.
+// Specify the request method, URL and set async to true
 http.open('get', 'products.json', true);
-// the first argument sets the http method.
-// in the second argument we pass the file where our data lives.
-// and last the keyword true, sets the request to be async.
 
-// next i will send the request.
+// Send the request to the server
 http.send();
 
-// Now i have to catch the response.
-// i will check the onload eventlistener.
+// When the server responds, execute this function
 http.onload = function(){
-	// Inside the function i need to check the readystate and status properties.
+
+	// Check if the request was successful and the response has been received
 	if(this.readyState == 4 && this.status == 200){
-		// if we have a successful response, i have to parse the json data
-		// and convert them to a javascript array.
+
+		// Parse the response text as JSON and store it in the 'products' variable
 		let products = JSON.parse(this.responseText);
 
-		// next i need an empty variable to add the incoming data.
+		// Create an empty string that will be used to store the HTML elements
 		let output = "";
 
-		// now i have to loop trough the products, and in every iteration
-		// i add an html template to the output variable.
+		// Loop through each product in the 'products' array
 		for(let item of products){
+
+			// Create HTML elements for the product and add them to the 'output' string
 			output += `
 			<div class="pro" onclick="window.location.href='${item.detail}';">
                 <img src="${item.image}" alt="${item.alt}">
                 <div class="des">
-                    <span>${item.title} ${item.type}</span>
+                    <span>${item.brand} ${item.type}</span>
                     <h5>${item.description}</h5>
                     <div class="star">
                         ${item.rating}
@@ -41,50 +38,60 @@ http.onload = function(){
             </div>
 			`;
 		}
-		/* and last i target the products container and add the data that the
-		output variable holds. */
+
+		// Set the innerHTML of the container element to the 'output' string
 		document.querySelector(".pro-container").innerHTML = output;
 	}
 } 
 
-//Hamburger Menu
-
+// Get references to the hamburger menu elements
 const bar = document.getElementById('bar');
 const close = document.getElementById('close')
 const nav = document.getElementById('navbar');
 
+// Add an event listener to the 'bar' element
 if (bar) {
 	bar.addEventListener('click', () =>{
+		// Toggle the 'active' class on the navigation menu
 		nav.classList.add('active')
 	})
 }
 
+// Add an event listener to the 'close' element
 if (close) {
 	close.addEventListener('click', () =>{
+		// Remove the 'active' class from the navigation menu
 		nav.classList.remove('active')
 	})
 }
 
-
-//Slideshow
+// Get references to the slideshow elements
 const slides = document.querySelectorAll(".slide");
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 let currentSlide = 0;
 
+// Define a function that shows a specific slide
 function showSlide(n) {
-  slides[currentSlide].classList.remove("active");
-  currentSlide = (n + slides.length) % slides.length;
-  slides[currentSlide].classList.add("active");
+	// Remove the 'active' class from the current slide
+	slides[currentSlide].classList.remove("active");
+	// Set the current slide index to the new index, wrapping around to the start or end if necessary
+	currentSlide = (n + slides.length) % slides.length;
+	// Add the 'active' class to the new slide
+	slides[currentSlide].classList.add("active");
 }
 
+// Define a function that automatically cycles through the slides
 function autoPlay() {
-  setInterval(() => {
-    showSlide(currentSlide + 1);
-  }, 5000);
+	// Call the 'showSlide' function with the next slide index every 5 seconds
+	setInterval(() => {
+		showSlide(currentSlide + 1);
+	}, 5000);
 }
 
+// Call the 'autoPlay' function to start the slideshow
 autoPlay();
 
+// Add event listeners to the previous and next buttons
 prev.addEventListener("click", () => showSlide(currentSlide - 1));
 next.addEventListener("click", () => showSlide(currentSlide + 1));
