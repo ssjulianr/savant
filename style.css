@@ -5,7 +5,10 @@
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
 }
-
+img{
+  width: auto;
+  height: auto;
+}
 body {
   width: 100vw;
   background-color: lavender;
@@ -74,6 +77,10 @@ button.normal {
 
 .section-m1 {
   margin: 2.5rem 0;
+}
+
+section{
+  overflow: hidden;
 }
 
 body {
@@ -575,7 +582,10 @@ footer .col .row img {
   border: 20px solid #ffffff;
   border-radius: 8px;
   box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+  overflow: hidden;
 }
+
+
 .wrapper{
   width: 100%;
   display: flex;
