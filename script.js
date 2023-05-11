@@ -1,13 +1,4 @@
-
-
-
-
-
-/*
-	We start our code with an ajax request to fetch the data
-	from the json file.
-*/
-// First i create a new xmlhttp-request object.
+// xmlhttp-request creates a new object that interacts with the servers.
 let http = new XMLHttpRequest();
 // the variable http holds now all methods and properties of the objct.
 

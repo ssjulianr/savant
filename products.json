@@ -1,7 +1,27 @@
 [
 	{
 		"title": "'savant.'",
-		"image": "/images/products/01.jpg",
+		"image": "/images/sproducts/worldtourhoodief.png",
+		"type" : "<i class='fa-solid fa-shirt'></i>",
+		"alt" : "savant world tour hoodie",
+		"description": "World Tour Hoodie",
+		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
+		"price": "$95",
+		"detail": "/product-html/smerch.html"
+	},
+	{
+		"title": "'savant.'",
+		"image": "/images/sproducts/worldtourtee.webp",
+		"type" : "<i class='fa-solid fa-shirt'></i>",
+		"alt" : "savant world tour t-shirt",
+		"description": "World Tour Tee",
+		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
+		"price": "$45",
+		"detail": "/product-html/smerch.html"
+	},
+	{
+		"title": "'savant.'",
+		"image": "/images/sproducts/logotee.webp",
 		"type" : "<i class='fa-solid fa-shirt'></i>",
 		"alt" : "savant logo t-shirt",
 		"description": "Logo Tee",
@@ -11,102 +31,93 @@
 	},
 	{
 		"title": "'savant.'",
-		"image": "/images/products/01.jpg",
-		"type" : "<i class='fa-solid fa-shirt'></i>",
-		"alt" : "savant world tour t-shirt",
-		"description": "World Tour Tee",
-		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
-	},
-	{
-		"title": "'savant.'",
-		"image": "/images/products/01.jpg",
-		"type" : "<i class='fa-solid fa-shirt'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
-	},
-	{
-		"title": "'savant.'",
-		"image": "/images/products/01.jpg",
+		"image": "/images/sproducts/darkchild.webp",
 		"type" : "<i class='fa-solid fa-compact-disc'></i>",
 		"alt" : "DARKCHILD VINYL RECORD",
 		"description": "'DARKCHILD' Vinyl (LP)",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
+		"price": "$30",
+		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'REIGN' Vinyl (EP)",
-		"image": "/images/products/01.jpg",
+		"title": "'savant.'",
+		"image": "/images/sproducts/reign.webp",
 		"type" : "<i class='fa-solid fa-compact-disc'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"alt" : "REIGN VINYL RECORD",
+		"description": "'REIGN' Vinyl (EP)",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
+		"price": "$30",
+		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'PRAY FOR PARIS' Tee",
-		"image": "/images/products/01.jpg",
+		"title": "SAINT X PRAY FOR PARIS",
+		"image": "/images/sproducts/prayforparis.webp",
 		"type" : "<i class='fa-solid fa-shirt'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"alt" : "pray for paris tee",
+		"description": "Pray For SAINT Tee",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
+		"price": "$75",
+		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "World Tour Poster",
-		"image": "/images/products/01.jpg",
+		"title": "'savant.'",
+		"image": "/images/sproducts/poster.webp",
 		"type" : "<i class='fa-solid fa-gift'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"alt" : "tour poster",
+		"description": "World Tour Poster",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
+		"price": "$15",
+		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "Logo Lighter",
-		"image": "/images/products/01.jpg",
+		"title": "'savant.'",
+		"image": "/images/sproducts/hat.webp",
 		"type" : "<i class='fa-solid fa-gift'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"alt" : "logo hat",
+		"description": "Logo Hat",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
+		"price": "$25",
+		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "'HOLY WATER' Viynl (Extended LP)",
-		"image": "/images/products/01.jpg",
+		"title": "'savant.'",
+		"image": "/images/sproducts/holywater.webp",
 		"type" : "<i class='fa-solid fa-compact-disc'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"alt" : "HOLY WATER VINYL RECORD",
+		"description": "'HOLY WATER' Viynl (Extended LP)",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
+		"price": "$30",
+		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "Savant Artist Development Course",
-		"image": "/images/products/01.jpg",
+		"title": "'savant.'",
+		"image": "/images/sproducts/course.webp",
 		"type" : "<i class='fa-solid fa-headphones-simple'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"alt" : "artist dev course",
+		"description": "Savant Artist Development Course",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45"
+		"price": "$399",
+		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "Industry Quality Engineering (Mix Only)",
-		"image": "/images/products/01.jpg",
+		"title": "'savant.'",
+		"image": "/images/sproducts/mix.webp",
 		"type" : "<i class='fa-solid fa-headphones-simple'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"alt" : "track mix",
+		"description": "Industry Quality Engineering (Mix Only)",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45/Song"
+		"price": "$80/Song",
+		"detail": "/product-html/smerch.html"
 	},
 	{
-		"title": "Industry Quality Engineering (Mix & Master)",
-		"image": "/images/products/01.jpg",
+		"title": "'savant.",
+		"image": "/images/sproducts/mix.webp",
 		"type" : "<i class='fa-solid fa-headphones-simple'></i>",
-		"alt" : "savant t-shirt",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
+		"alt" : "track mix and master",
+		"description": "Industry Quality Engineering (Mix & Master)",
 		"rating" : "<i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i> <i class='fas fa-star'></i>",
-		"price": "$45/Song"
+		"price": "$120/Song",
+		"detail": "/product-html/smerch.html"
 	}
 	
 ]
